@@ -1,4 +1,3 @@
-// NoteForm.jsx
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addNote } from "../features/notes/notesSlice";

@@ -4,6 +4,7 @@ import store from "./app/store";
 import NoteForm from "./components/NoteForm";
 import NoteList from "./components/NoteList";
 import TagFilter from "./components/TagFilter";
+import ClearStorageButton from "./components/ClearStorageButton";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           </div>
         </div>
       </div>
+      <ClearStorageButton />
     </Provider>
   );
 }
