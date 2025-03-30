@@ -2,7 +2,7 @@
 
 A modern note-taking application with tag-based organization, built using React and Redux Toolkit.
 
-![Notes App Screenshot](/public/screenshot.png) <!-- Add your screenshot here -->
+![Notes App Screenshot](/public/screenshot.png) 
 
 ## ✨ Features
 
