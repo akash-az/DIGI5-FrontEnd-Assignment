@@ -29,7 +29,7 @@ A modern note-taking application with tag-based organization, built using React 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/akash-az/notes-app.git
+git clone https://github.com/akash-az/DIGI5-FrontEnd-Assignment.git
 
 Install dependencies:
 
