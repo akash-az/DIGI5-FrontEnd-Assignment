@@ -2,7 +2,7 @@
 
 A modern note-taking application with tag-based organization, built using React and Redux Toolkit.
 
-![Notes App Screenshot](/public/screenshot.png) 
+![Notes App Screenshot](/public/screenshot.png)
 
 ## ✨ Features
 
@@ -20,13 +20,16 @@ A modern note-taking application with tag-based organization, built using React 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - npm (v9 or higher)
 
 ### Installation
+
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/your-username/notes-app.git
+git clone https://github.com/akash-az/notes-app.git
 
 Install dependencies:
 
@@ -55,3 +58,4 @@ src/
 ├── features/       # Redux slices
 ├── assets/         # Static assets
 public/             # Public assets
+```
