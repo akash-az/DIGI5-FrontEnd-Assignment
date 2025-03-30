@@ -1,4 +1,4 @@
-// NoteItem.jsx
+import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { deleteNote } from "../features/notes/notesSlice";
 
@@ -7,6 +7,10 @@ export default function NoteItem({ note }) {
   const [isEditing, setIsEditing] = useState(false);
   const [editedTitle, setEditedTitle] = useState(note.title);
   const [editedContent, setEditedContent] = useState(note.content);
+
+  const handleDelete = () => {
+    dispatch(deleteNote(note.id));
+  };
 
   return (
     <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow">
@@ -34,7 +38,7 @@ export default function NoteItem({ note }) {
 
           <div className="flex justify-end gap-2 border-t pt-3">
             <button
-              onClick={() => dispatch(deleteNote(note.id))}
+              onClick={handleDelete}
               className="text-red-600 hover:text-red-700 text-sm font-medium"
             >
               Delete

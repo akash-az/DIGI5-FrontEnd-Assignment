@@ -1,4 +1,3 @@
-// TagFilter.jsx
 import { useSelector, useDispatch } from "react-redux";
 import { setFilterTag } from "../features/filters/filtersSlice";
 
