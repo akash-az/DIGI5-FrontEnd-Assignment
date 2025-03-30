@@ -3,8 +3,10 @@ import { setFilterTag } from "../features/filters/filtersSlice";
 
 export default function TagFilter() {
   const dispatch = useDispatch();
-  const tags = useSelector((state) => state.notes.tags);
+  const notes = useSelector((state) => state.notes.notes);
   const selectedTag = useSelector((state) => state.filters.selectedTag);
+
+  const tags = [...new Set(notes.flatMap((note) => note.tags))];
 
   return (
     <div className="flex flex-wrap gap-2">
