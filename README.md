@@ -1,12 +1,57 @@
-# React + Vite
+# 📝 Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern note-taking application with tag-based organization, built using React and Redux Toolkit.
 
-Currently, two official plugins are available:
+![Notes App Screenshot](/public/screenshot.png) <!-- Add your screenshot here -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Create Notes** with title, content, and multiple tags
+- **Edit & Delete** existing notes
+- **Tag Management**:
+  - Add/remove tags from notes
+  - Filter notes by tags
+  - Automatic tag categorization
+- **Responsive Design** works on all screen sizes
+- **Persistent Storage** using local storage
+- **Modern UI** with clean animations and transitions
+- **Search Optimization** through tag filtering
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm (v9 or higher)
+
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/notes-app.git
+
+Install dependencies:
+
+cd notes-app
+npm install
+
+// To Start the development server: npm run dev
+
+🛠️ Technologies Used
+
+React - Frontend framework
+
+Redux Toolkit - State management
+
+Tailwind CSS - Styling system
+
+React Icons - Icon library
+
+Vite - Build tool
+
+📂 Project Structure
+
+src/
+├── app/            # Redux store configuration
+├── components/     # React components
+├── features/       # Redux slices
+├── assets/         # Static assets
+public/             # Public assets
