@@ -62,7 +62,7 @@ src/
 public/             # Public assets
 ```
 
-## Key challenges you faced during development:
+## Challenges faced during development:
 
 1. Text Overflow Issues : Content overflow in notes/titles despite using whitespace-pre-wrap
 
