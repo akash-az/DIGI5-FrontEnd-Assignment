@@ -7,7 +7,7 @@ body {
   @apply bg-gray-50;
 }
 
-/* Custom scrollbar */
+/* scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;

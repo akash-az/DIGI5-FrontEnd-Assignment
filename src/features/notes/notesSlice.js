@@ -1,4 +1,3 @@
-// features/notes/notesSlice.js
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {

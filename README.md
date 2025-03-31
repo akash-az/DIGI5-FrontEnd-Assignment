@@ -33,10 +33,11 @@ git clone https://github.com/akash-az/DIGI5-FrontEnd-Assignment.git
 
 Install dependencies:
 
-cd notes-app
+cd DIGI5-FrontEnd-Assignment
 npm install
 
-// To Start the development server: npm run dev
+-> To Start the development server: npm run dev
+
 
 🛠️ Technologies Used
 
@@ -50,6 +51,7 @@ React Icons - Icon library
 
 Vite - Build tool
 
+
 📂 Project Structure
 
 src/
@@ -59,3 +61,19 @@ src/
 ├── assets/         # Static assets
 public/             # Public assets
 ```
+
+## Key challenges you faced during development:
+
+1. Text Overflow Issues : Content overflow in notes/titles despite using whitespace-pre-wrap
+
+2. Redux Store Configuration : store is not defined errors due to incorrect exports
+
+3. Dynamic Textarea Sizing : Difficulty balancing width/height expansion for multi-line content
+
+4. Tag Management : Tags disappearing after note deletion or not updating filters
+
+5. Border Styling Conflicts : Unintended dark borders replacing subtle design
+
+6. Edit Feature Layout Breakage : Existing note UI breaking when editing activated
+
+7. Local Storage Persistence : Data loss on refresh despite localStorage implementation

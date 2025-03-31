@@ -12,10 +12,10 @@ export default function TagFilter() {
     <div className="flex flex-wrap gap-2">
       <button
         onClick={() => dispatch(setFilterTag(null))}
-        className={`px-3 py-1 rounded-full ${
+        className={`px-3 py-1 rounded-full border transition-colors ${
           !selectedTag
-            ? "bg-blue-600 text-white"
-            : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+            ? "bg-blue-500 text-white border-blue-600"
+            : "bg-white text-gray-700 border-gray-300 hover:border-blue-500"
         }`}
       >
         All
@@ -24,10 +24,10 @@ export default function TagFilter() {
         <button
           key={tag}
           onClick={() => dispatch(setFilterTag(tag))}
-          className={`px-3 py-1 rounded-full ${
+          className={`px-3 py-1 rounded-full border transition-colors ${
             tag === selectedTag
-              ? "bg-blue-600 text-white"
-              : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+              ? "bg-blue-500 text-white border-blue-600"
+              : "bg-white text-gray-700 border-gray-300 hover:border-blue-500"
           }`}
         >
           {tag}
